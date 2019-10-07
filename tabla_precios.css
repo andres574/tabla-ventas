@@ -1,0 +1,67 @@
+.container{
+	margin: 0 auto;
+	width: 90%;  /*para poner un ancho*/
+}
+/*para hacer columnas llamamos nuestra clase flex
+*/.flex{
+ 	display: flex;
+ 	flex-wrap: wrap;
+ }
+/* centramos el texto de las columnas*/ 
+.text-centro{
+ 	text-align: center;
+ }
+
+ body{
+/* 	agregamos tambien aqui la especificacion de css
+*/    font-family: 'Roboto Mono', monospace;
+ }
+
+ h2{
+ 	font-weight: 300;
+ }
+
+ p{
+ 	 	font-weight: 300;
+ }
+ 
+ .precio{
+ 	font-size: 50px;
+ 	color:  #33e9ff ;
+ }
+ .columna{
+ 	background: rgb(228, 228, 228);
+ 	color: #333;
+ 	border: 1px solid #333;
+ 	padding: 10px;
+ 	margin: 0 auto;
+ 	border-radius: 5px;
+/* 	para sombrear
+*/ 	box-shadow: 10px 10px 5px black;
+     width: 23%;
+     box-sizing: border-box;
+ }
+ .btn-precio{
+ 	display: block;
+ 	background: orange;
+ 	color: #fff;
+ 	padding: 5px;
+ 	text-decoration: none;
+ 	border-radius: 3px;
+ 	margin-bottom: 10px;
+ 	 }
+ 	 .btn-precio:hover{
+ 	 	background:  #ff8333 ;
+ 	 }
+ 	 @media(max-width: 1070px) {
+ 	 	.columna{
+ 	 		width: 45%;
+ 	 		margin-bottom: 20px;
+ 	 	}
+ 	 }
+ 	  @media(max-width: 600px) {
+ 	 	.columna{
+ 	 		width: 100%;
+ 	 		margin-bottom: 20px;
+ 	 	}
+ 	 }
