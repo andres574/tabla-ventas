@@ -4,6 +4,7 @@
 }
 /*para hacer columnas llamamos nuestra clase flex
 */.flex{
+
  	display: flex;
  	flex-wrap: wrap;
  }
@@ -43,7 +44,7 @@
  }
  .btn-precio{
  	display: block;
- 	background: orange;
+ 	background: #219CA9;
  	color: #fff;
  	padding: 5px;
  	text-decoration: none;
